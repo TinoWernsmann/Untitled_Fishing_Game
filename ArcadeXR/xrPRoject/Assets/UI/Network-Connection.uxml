@@ -1,0 +1,38 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style.uss?fileID=7433441132597879392&amp;guid=af5cd2952d5ddfc40a6a8aba17b7fcd7&amp;type=3#Style"/>
+    <ui:VisualElement name="VisualElement" enabled="true" focusable="true" style="flex-grow: 1; background-color: rgba(0, 255, 255, 0.25);">
+        <ui:Label text="Please Connect to Arcade"/>
+        <ui:VisualElement name="IP" class="ip-container" style="flex-grow: 1; flex-direction: row; align-self: flex-start; justify-content: flex-start; height: 0%; align-items: center;">
+            <ui:Label text="Arcade Address" style="-unity-text-align: lower-left; align-items: flex-start;"/>
+            <ui:IntegerField label="" value="0" name="0" class="ip-field" style="width: 56px;"/>
+            <ui:Label text="."/>
+            <ui:IntegerField label="" value="0" name="1" class="ip-field" style="width: 53px; align-items: flex-start; justify-content: flex-end; align-self: center;"/>
+            <ui:Label text="."/>
+            <ui:IntegerField label="" value="0" name="2" class="ip-field" style="width: 50px;"/>
+            <ui:Label text="."/>
+            <ui:IntegerField label="" value="0" name="3" max-length="255" class="ip-field" style="flex-direction: row; justify-content: center; width: 52px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Ports" style="flex-grow: 1; justify-content: flex-start; align-items: center; align-self: flex-start; flex-direction: column; top: 0%;">
+            <ui:IntegerField label="HMD Port" value="0" name="4" class="ip-field" style="align-self: stretch;"/>
+            <ui:IntegerField label="Arcade Port" value="0" name="5" class="ip-field" style="width: 308px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="ConnectContainer" style="flex-grow: 1; flex-direction: row; align-items: flex-end; justify-content: flex-start; align-self: stretch;">
+            <ui:Button text="Connect" name="Connect" style="width: 200px; height: 40px;"/>
+            <ui:Label text="&#10;" name="Label"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Numpad" class="grid" style="flex-grow: 1; position: absolute; right: 38px; height: 184px; width: 133px; top: 21px;">
+            <ui:Button text="1" name="1" style="width: 36px;"/>
+            <ui:Button text="2" name="2"/>
+            <ui:Button text="3" name="3" style="width: 34px;"/>
+            <ui:Button text="4" name="4"/>
+            <ui:Button text="5" name="5"/>
+            <ui:Button text="6" name="6"/>
+            <ui:Button text="7" name="7"/>
+            <ui:Button text="8" name="8"/>
+            <ui:Button text="9" name="9"/>
+            <ui:Button text="0" name="0" style="width: 124px;"/>
+            <ui:Button text="Next" name="Next" style="width: 44px;"/>
+            <ui:Button text="Delete" name="Delete" style="width: 72px; text-overflow: ellipsis;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

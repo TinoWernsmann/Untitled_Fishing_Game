@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac7a5bd7f4cd941a193a049a27850717
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - splashPrefab: {instanceID: 0}
+  - miniGameLoopClip: {instanceID: 0}
+  - tipOfBoy: {instanceID: 0}
+  - debugRadiusPrafab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

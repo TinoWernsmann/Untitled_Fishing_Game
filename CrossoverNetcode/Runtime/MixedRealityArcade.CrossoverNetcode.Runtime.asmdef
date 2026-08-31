@@ -1,0 +1,8 @@
+﻿{
+  "name": "MixedRealityArcade.CrossoverNetcode.Runtime",
+  "rootNamespace": "MixedRealityArcade.CrossoverNetcode",
+  "references": [
+    "Unity.Collections",
+    "Unity.Networking.Transport"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "com.mirevi.mixedrealityarcade.crossovernetcode",
+  "version": "1.0.0",
+  "displayName": "Crossover Netcode",
+  "description": "Enables communication between different hosts by sending CrossoverEvents.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.transport": "2.6.0"
+  },
+  "samples": [
+    {
+      "displayName": "Simple peer to peer",
+      "description": "Contains a simple scene that internally sends a TestEvent between two NetworkPeerBehavior",
+      "path": "Samples~/SamplesPTP"
+    }
+  ]
+}

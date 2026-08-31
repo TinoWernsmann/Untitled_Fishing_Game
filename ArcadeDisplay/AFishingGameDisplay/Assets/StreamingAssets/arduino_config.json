@@ -1,0 +1,5 @@
+{
+    "portCoin": "COM6",
+    "portLight": "COM7",
+    "baudRate": 9600
+}

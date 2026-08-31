@@ -1,0 +1,125 @@
+
+# Unity .gitignore angepasst für zwei Projekte: ArcadeDisplay & ArcadeXR
+
+##############################
+#   Globale Einstellungen
+##############################
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln*
+*.tmp
+*.user
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.bak
+*.orig
+*.swp
+*.lock
+*.blend1
+*.blend2
+
+# Unity Asset Store Tools
+AssetStoreTools*
+
+##############################
+#   Projekt 1: ArcadeDisplay
+##############################
+
+# Build artefacts & temporäre Dateien
+ArcadeDisplay/AFishingGameDisplay/[Ll]ibrary/
+ArcadeDisplay/AFishingGameDisplay/[Tt]emp/
+ArcadeDisplay/AFishingGameDisplay/[Oo]bj/
+ArcadeDisplay/AFishingGameDisplay/[Bb]uild*/
+ArcadeDisplay/AFishingGameDisplay/[Ll]ogs/
+ArcadeDisplay/AFishingGameDisplay/[Mm]emoryCaptures/
+ArcadeDisplay/AFishingGameDisplay/[Rr]ecordings/
+ArcadeDisplay/AFishingGameDisplay/[Pp]ackages/com.unity.testtools.codecoverage/
+
+# Sonstige Unity Caches
+ArcadeDisplay/AFishingGameDisplay/[Uu]ser[Ss]ettings/
+ArcadeDisplay/AFishingGameDisplay/.vs/
+ArcadeDisplay/AFishingGameDisplay/.gradle/
+ArcadeDisplay/AFishingGameDisplay/[Pp]lugins/Android/.gradle/
+ArcadeDisplay/AFishingGameDisplay/[Pp]lugins/Android/[Bb]uild/
+
+# Lokale Builds, Backups, Profiling
+ArcadeDisplay/AFishingGameDisplay/*.apk
+ArcadeDisplay/AFishingGameDisplay/*.aab
+ArcadeDisplay/AFishingGameDisplay/*.unitypackage
+ArcadeDisplay/AFishingGameDisplay/*.profiler
+
+##############################
+#   Projekt 2: ArcadeXR
+##############################
+
+ArcadeXR/xrPRoject/[Ll]ibrary/
+ArcadeXR/xrPRoject/[Tt]emp/
+ArcadeXR/xrPRoject/[Oo]bj/
+ArcadeXR/xrPRoject/[Bb]uild*/
+ArcadeXR/xrPRoject/[Ll]ogs/
+ArcadeXR/xrPRoject/[Mm]emoryCaptures/
+ArcadeXR/xrPRoject/[Rr]ecordings/
+ArcadeXR/xrPRoject/[Pp]ackages/com.unity.testtools.codecoverage/
+
+ArcadeXR/xrPRoject/[Uu]ser[Ss]ettings/
+ArcadeXR/xrPRoject/.vs/
+ArcadeXR/xrPRoject/.gradle/
+ArcadeXR/xrPRoject/[Pp]lugins/Android/.gradle/
+ArcadeXR/xrPRoject/[Pp]lugins/Android/[Bb]uild/
+
+ArcadeXR/xrPRoject/*.apk
+ArcadeXR/xrPRoject/*.aab
+ArcadeXR/xrPRoject/*.unitypackage
+ArcadeXR/xrPRoject/*.profiler
+
+##############################
+#  Plugin CrossoverNetcode
+##############################
+CrossoverNetcode/Samples~/SamplesPTP/[Ll]ibrary/
+CrossoverNetcode/Samples~/SamplesPTP/[Tt]emp/
+CrossoverNetcode/Samples~/SamplesPTP/[Oo]bj/
+CrossoverNetcode/Samples~/SamplesPTP/[Bb]uild*/
+CrossoverNetcode/Samples~/SamplesPTP/[Ll]ogs/
+CrossoverNetcode/Samples~/SamplesPTP/[Mm]emoryCaptures/
+CrossoverNetcode/Samples~/SamplesPTP/[Rr]ecordings/
+CrossoverNetcode/Samples~/SamplesPTP/[Pp]ackages/com.unity.testtools.codecoverage/
+
+CrossoverNetcode/Samples~/SamplesPTP/[Uu]ser[Ss]ettings/
+CrossoverNetcode/Samples~/SamplesPTP.vs/
+CrossoverNetcode/Samples~/SamplesPTP/.gradle/
+CrossoverNetcode/Samples~/SamplesPTP/[Pp]lugins/Android/.gradle/
+CrossoverNetcode/Samples~/SamplesPTP/[Pp]lugins/Android/[Bb]uild/
+
+CrossoverNetcode/Samples~/SamplesPTP/*.apk
+CrossoverNetcode/Samples~/SamplesPTP/*.aab
+CrossoverNetcode/Samples~/SamplesPTP/*.unitypackage
+CrossoverNetcode/Samples~/SamplesPTP/*.profiler
+
+
+##############################
+#   Gemeinsame Regeln für beide Projekte
+##############################
+
+# Crash Reports
+sysinfo.txt
+*.stacktrace
+
+# Rider / VSCode / JetBrains
+.idea/
+.vscode/
+*.DotSettings.user
+
+
+
+/ArcadeXR/xrPRoject/.utmp
+UserSettings

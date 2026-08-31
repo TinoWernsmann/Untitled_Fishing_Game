@@ -1,0 +1,5 @@
+{
+"targetAddress":"192.168.178.66",
+"listenPort":7777,
+"remotePort":7776
+}
